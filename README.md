@@ -1,7 +1,7 @@
 # Lavanya Mehndiratta's Personal Portfolio
 
 > this repo is a clone of
-https://github.com/varadbhogayata/varadbhogayata.github.io
+https://github.com/lavanyamehn/lavanyamehn.github.io
 
 > https://lavanyamehn.github.io
 
@@ -9,7 +9,7 @@ https://github.com/varadbhogayata/varadbhogayata.github.io
 ![GitHub forks](https://img.shields.io/github/forks/lavanyamehn/lavanyamehn.github.io)
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/lavanyamehn/lavanyamehn.github.io/commits/master)
 [![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://lavanyamehn.github.io/)
-[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/lavanyamehn/)
+[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/lavanya-mehndiratta/)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ### Website Preview
