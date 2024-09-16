@@ -20,6 +20,44 @@ https://github.com/varadbhogayata/varadbhogayata.github.io
   </kbd>
 </p>
 
+### Assignment Screenshots
+##### Activity 1
+- Clone repo
+<p align="center"> 
+    <img src="assets/img/readme/activity1.png">
+</p>
+
+##### Activity 2
+- Add personal information
+<p align="center"> 
+    <img src="assets/img/readme/activity2-repo.png">
+    <img src="assets/img/readme/activity2-website.png">
+</p>
+
+##### Activity 3
+- Change color theme
+<p align="center"> 
+    <img src="assets/img/readme/activity3-repo.png">
+    <img src="assets/img/readme/activity3-website.png">
+</p>
+
+##### Activity 4
+- Add google maps
+<p align="center"> 
+    <img src="assets/img/readme/activity4-repo.png">
+    <img src="assets/img/readme/activity4-website.png">
+</p>
+
+##### Activity 5
+- Make project section dynamic
+<p align="center"> 
+    <img src="assets/img/readme/activity5-repo.png">
+    <img src="assets/img/readme/activity5-website(1).png">
+    <p>After load more is clicked:</p>
+    <img src="assets/img/readme/activity5-website(2).png">
+</p>
+
+
 :star: Star me on GitHub — it helps!
 
 ## Features 📋
