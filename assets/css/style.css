@@ -11,8 +11,8 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
-  border-radius: 50% !important;
+  border: 6px solid #f553b3a8; 
+  border-radius: 25% !important;
 }
 
 .profile-pic img {
@@ -52,14 +52,16 @@
 
 .github {
   color: black;
+  background: white;
 }
 
 .linkedin {
   color: #0077b5;
+  background: white;
 }
 
 .angellist {
-  color: grey;
+  color: rgb(240, 139, 230);
 }
 
 .icon-btn:hover {
@@ -72,7 +74,7 @@
 }
 
 .angellist:hover {
-  background-color: grey;
+  background-color: rgb(240, 240, 240);
 }
 
 .github:hover {
@@ -84,15 +86,13 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #fff;
-  color: #00796b;
-  border: 2px solid #fff;
-  font-weight: 600;
-  font-size: 15px;
-  letter-spacing: 1px;
+  background: white;
+  color: #ff0097;
+  font-size: 17px;
+  letter-spacing: 2px;
   display: inline-block;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  margin-top: 1.5em;
+  -webkit-border-radius: 8.5px;
 }
 
 /* .readme:hover{
@@ -103,21 +103,23 @@
 .contactme {
   position: relative;
   padding: 11px 35px;
-  background: none;
-  color: #fff;
-  border: 2px solid #fff;
-  font-weight: 600;
-  font-size: 15px;
-  letter-spacing: 1px;
+  background: white;
+  color: #ff0097;
+  font-size: 17px;
+  letter-spacing: 2px;
   display: inline-block;
   margin-top: 1.5em;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  -webkit-border-radius: 8.5px;
 }
 
 .contactme:hover{
-  color: #00796b;
-  background-color: white;
+  color: white;
+  background-color: #ff0097;
+}
+
+.readme:hover {
+  color: white;
+  background-color: #ff0097;
 }
 /* main body */
 
@@ -237,7 +239,7 @@ ul.side-nav li {
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(16, 202, 56);
+  color: rgb(255, 24, 159);
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -257,8 +259,8 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 } */
 
 ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
-  border-bottom: 1px solid #ddd;
+  background-color: #fce8f2;
+  border-bottom: 1px solid #ff0370;
   box-sizing: content-box;
   min-height: 90px;
   padding: 30px 30px 40px;
@@ -270,12 +272,13 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #fafafa;
+  background-color: #f553b45e;
   border-left: 3px solid;
 }
 
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #333 !important;
+  color: #590155 !important;
+  font-weight: 350;
 }
 
 li.logo span {
@@ -320,12 +323,12 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #ffffff repeat;
   position: relative;
 }
 
 #intro.section .container {
-  color: white;
+  color: #590155;
   font-weight: 200;
   left: 0;
   position: absolute;
@@ -344,7 +347,7 @@ h3 {
   /* font-weight: 400; */
   line-height: 150%;
   /* padding: 0 0px; */
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); */
 }
 
 #intro.section .underline {
@@ -356,7 +359,7 @@ h3 {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(254, 209, 232, 0.94);
   height: 100%;
   left: 0;
   position: absolute;
@@ -549,7 +552,18 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #e800aa !important;
+}
+
+.company-text {
+  color: #e800aa !important;
+  font-weight: 500;
+}
+
+.section-text {
+  color: white;
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* .teal-text {
@@ -559,7 +573,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #f553b3a8 !important;
 }
 
 /* .teal {
