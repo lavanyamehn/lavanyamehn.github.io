@@ -1,7 +1,7 @@
 # Lavanya Mehndiratta's Personal Portfolio
 
 > this repo is a clone of
-https://github.com/lavanyamehn/lavanyamehn.github.io
+https://github.com/varadbhogayata/varadbhogayata.github.io
 
 > https://lavanyamehn.github.io
 
