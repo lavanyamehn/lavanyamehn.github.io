@@ -95,10 +95,20 @@
   -webkit-border-radius: 8.5px;
 }
 
-/* .readme:hover{
+.loadmore {
+  /* align-self: flex-end; */
+  background: white;
+  color: #ff0097;
+  font-size: 17px;
+  letter-spacing: 2px;
+  /* margin-top: auto; */
+  -webkit-border-radius: 8.5px;
+}
+
+.loadmore:hover{
   color: white;
-  background-color: #00796b;
-} */
+  background-color: #ff0097;
+}
 
 .contactme {
   position: relative;
@@ -563,6 +573,12 @@ small {
 .section-text {
   color: white;
   font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subsection-text {
+  color: #e800aa;
+  font-weight: 400;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
