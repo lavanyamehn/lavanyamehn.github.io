@@ -15,7 +15,7 @@ https://github.com/lavanyamehn/lavanyamehn.github.io
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="https://lavanyamehn.github.io" target="_blank"><img src="examples/preview.gif">
+    <a href="https://lavanyamehn.github.io" target="_blank"><img src="examples/preview.png">
   </a>
   </kbd>
 </p>
