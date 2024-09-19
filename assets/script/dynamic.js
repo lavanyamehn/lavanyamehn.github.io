@@ -76,7 +76,7 @@ const project5 = new Project(
     "", "");
 
 // Note: list is in ascending order from latest to oldest projects.
-const allProjects = [project2, project3, project4, project1];
+const allProjects = [project2, project3, project4, project1, project5];
 
 // FUNCTIONS
 
