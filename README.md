@@ -3,7 +3,7 @@
 > this repo is a clone of
 https://github.com/varadbhogayata/varadbhogayata.github.io
 
-> https://lavanyamehn.github.io
+> Access my website: https://lavanyamehn.github.io
 
 ![GitHub stars](https://img.shields.io/github/stars/lavanyamehn/lavanyamehn.github.io) 
 ![GitHub forks](https://img.shields.io/github/forks/lavanyamehn/lavanyamehn.github.io)
@@ -110,3 +110,10 @@ To view a live example, **[click here](https://lavanyamehn.github.io/)**
 
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
+
+## References
+### Projects:
+[1] Pngtree.com, 2024. https://png.pngtree.com/element_our/sm/20180410/sm_5acd1797b5783.jpg (accessed Sep. 19, 2024).
+[2] Wisc.edu, 2024. https://fyi.extension.wisc.edu/moneymatters/files/2022/07/Untitled-design-1024x692.png (accessed Sep. 19, 2024).
+[3] Googleapis.com, 2024. https://storage.googleapis.com/gweb-uniblog-publish-prod/images/google_maps_helpful_hero_1.width-1200.format-webp.webp (accessed Sep. 19, 2024).
+[4] “Newest Vector Art, Graphics, & Images,” Vecteezy. https://www.vecteezy.com/vector-art/523631-crayon-background-colorful-pencil-seamless-border-pattern
