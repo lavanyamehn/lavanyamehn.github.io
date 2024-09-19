@@ -63,6 +63,18 @@ const project4 = new Project(
     ],
     "", "");
 
+const project5 = new Project(
+    "NEW PROJECT",
+    new Date("2024-09-19"),
+    "Made a teams page for the cloud development club at UofT.",
+    "/assets/img/project-cloud.png",
+    [
+        "Tools: HTML, CSS, Bootstrap",
+        "Learned how to make a webpage for the first time.",
+        "Displayed cards of all team members and their roles in the club."
+    ],
+    "", "");
+
 // Note: list is in ascending order from latest to oldest projects.
 const allProjects = [project2, project3, project4, project1];
 
