@@ -9,8 +9,9 @@ const recProj = document.getElementById("recent-projects");
 
 // PROJECTS
 
-function Project(name, description, image, list, link, github) {
+function Project(name, date, description, image, list, link, github) {
     this.title = name;
+    this.date = date;
     this.desc = description;
     this.image = image;
     this.points = list;
@@ -20,15 +21,17 @@ function Project(name, description, image, list, link, github) {
 
 const project1 = new Project(
     "Interactive Mapper",
+    new Date("2022-04-15"),
     "An interactive GIS software. Won 8th place in Algorithm Performance Competition.",
-    "/assets/img/project-quizup-logo-1.png",
+    "/assets/img/project-mapper.png",
     ["Tools: C++, Linux", "Save favourite locations.", "View public transport routes."],
     "", "");
 
 const project2 = new Project(
     "Budget Shop",
+    new Date("2021-11-20"),
     "Financial Literacy web application to prevent new immigrants from overspending.",
-    "/assets/img/project-blog-logo.jpg",
+    "/assets/img/project-budget.png",
     [
         "Tools: HTML, CSS, Javascript",
         "Users can compare average price of items in grocery stores with ideal price it should be.",
@@ -38,8 +41,9 @@ const project2 = new Project(
 
 const project3 = new Project(
     "Magic Color",
+    new Date("2020-08-23"),
     "Dynamic color picking tool to assist in designing.",
-    "/assets/img/project-library-logo.png",
+    "/assets/img/project-color.png",
     [
         "Tools: Python",
         "Users can use a color dropper to get the exact hex code or rgb value.",
@@ -47,8 +51,20 @@ const project3 = new Project(
     ],
     "", "");
 
+const project4 = new Project(
+    "Cloud Club Website",
+    new Date("2020-09-05"),
+    "Made a teams page for the cloud development club at UofT.",
+    "/assets/img/project-cloud.png",
+    [
+        "Tools: HTML, CSS, Bootstrap",
+        "Learned how to make a webpage for the first time.",
+        "Displayed cards of all team members and their roles in the club."
+    ],
+    "", "");
+
 // Note: list is in ascending order from latest to oldest projects.
-const allProjects = [project1, project2, project3];
+const allProjects = [project2, project3, project4, project1];
 
 // FUNCTIONS
 
@@ -103,9 +119,15 @@ function displayProject(id, project) {
     const accomplishment3 = document.createElement('li');
     accomplishment3.textContent = project.points[2];
 
+    const dateCreated = document.createElement("li");
+    dateCreated.textContent = "Date: " + project.date.getDate() + "-" +
+                              project.date.getMonth() + "-" +
+                              project.date.getFullYear();
+
     accomplishmentsList.appendChild(accomplishment1);
     accomplishmentsList.appendChild(accomplishment2);
     accomplishmentsList.appendChild(accomplishment3);
+    accomplishmentsList.appendChild(dateCreated);
 
     const cardActionDiv = document.createElement('div');
     cardActionDiv.classList.add('card-action');
@@ -153,6 +175,8 @@ function loadMoreProjects() {
 }
 
 // DISPLAY ONLY LATEST PROJECT
+// sort projects based on date
+allProjects.sort((a, b) => b.date - a.date);
 displayProject(0, allProjects[0]);
 
 // Make button

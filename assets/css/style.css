@@ -531,6 +531,10 @@ a.hoverline:hover {
   height: 240px;
 }
 
+.activator {
+  object-fit: cover;
+}
+
 .card-action a.btn-floating {
   margin-bottom: 0;
 }
